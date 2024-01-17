@@ -12,6 +12,16 @@
     <main>
         <h1>Music Library Management App</h1>
 	<h2>Welcome *username*</h2>  
+	  <p>Click on the "Choose File" button to upload a file:</p>
+
+          <form action="/action_page.php">
+            <input type="file" id="myFile" name="filename">
+            <p>Artist Name:</p>
+            <input type="string" id="songArtist" name="artistName">
+            <p>Song Title:</p>
+            <input type="string" id="songTitle" name="songTitle">
+            <input type="submit">
+          </form>
     </main>
 	<script src="index.js"></script>
   </body>
